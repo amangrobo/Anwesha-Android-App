@@ -4,22 +4,15 @@ import android.content.Context;
 import android.content.ContextWrapper;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.support.annotation.NonNull;
-import android.util.Log;
+import androidx.annotation.NonNull;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.google.firebase.storage.FileDownloadTask;
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
-import info.anwesha2k19.iitp.data.GalleryPics;
+
 import info.anwesha2k19.iitp.data.HighlightsData;
 
 import java.io.File;

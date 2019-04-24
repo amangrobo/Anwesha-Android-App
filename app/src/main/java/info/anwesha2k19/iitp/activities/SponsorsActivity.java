@@ -1,8 +1,8 @@
 package info.anwesha2k19.iitp.activities;
 
 import android.net.Uri;
-import android.support.customtabs.CustomTabsIntent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.browser.customtabs.CustomTabsIntent;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;

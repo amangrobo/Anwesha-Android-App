@@ -2,19 +2,16 @@ package info.anwesha2k19.iitp.adapters;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
 
 import info.anwesha2k19.iitp.R;
-import info.anwesha2k19.iitp.activities.MainActivity;
-import info.anwesha2k19.iitp.activities.multiCityActivity;
 import info.anwesha2k19.iitp.data.multiCityData;
 
 public class multiCityRecyclerViewAdapter  extends RecyclerView.Adapter<multiCityRecyclerViewAdapter.multiCityViewHolder>  {

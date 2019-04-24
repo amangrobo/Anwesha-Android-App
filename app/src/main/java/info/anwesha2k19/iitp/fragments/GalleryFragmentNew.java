@@ -4,20 +4,20 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import androidx.fragment.app.Fragment;
+
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
-import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -30,7 +30,7 @@ import java.util.List;
 import info.anwesha2k19.iitp.R;
 import info.anwesha2k19.iitp.activities.ImageLauncher;
 
-public class GalleryFragmentNew extends android.support.v4.app.Fragment {
+public class GalleryFragmentNew extends Fragment {
 
     final private String LOG_TAG = getClass().toString();
     private FirebaseDatabase mfirebase;

@@ -1,7 +1,7 @@
 package info.anwesha2k19.iitp.listeners;
 
 import android.content.Context;
-import android.support.v4.view.ViewPager;
+import androidx.viewpager.widget.ViewPager;
 import android.util.AttributeSet;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.Interpolator;

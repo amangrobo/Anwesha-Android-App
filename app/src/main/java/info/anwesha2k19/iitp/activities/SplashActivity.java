@@ -1,36 +1,19 @@
 package info.anwesha2k19.iitp.activities;
 
 import android.app.Activity;
-import android.content.Context;
-import android.content.ContextWrapper;
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.content.ContextCompat;
-import android.util.Log;
+import androidx.core.content.ContextCompat;
+
 import android.view.View;
 import android.view.Window;
 import android.view.animation.AccelerateDecelerateInterpolator;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.view.animation.DecelerateInterpolator;
-import android.view.animation.LinearInterpolator;
-import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
-import android.widget.Toast;
 
-import com.nineoldandroids.animation.AnimatorInflater;
 import com.nineoldandroids.animation.ObjectAnimator;
 
 import info.anwesha2k19.iitp.R;
-import info.anwesha2k19.iitp.database.BackgroundFetch;
-import info.anwesha2k19.iitp.utils.NetworkUtils;
-
-import java.io.IOException;
-
-import pl.droidsonroids.gif.GifDrawable;
-import pl.droidsonroids.gif.GifImageView;
 
 
 public class SplashActivity extends Activity {

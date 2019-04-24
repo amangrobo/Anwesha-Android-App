@@ -2,9 +2,9 @@ package info.anwesha2k19.iitp.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.AppBarLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.appbar.AppBarLayout;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
@@ -16,8 +16,6 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 
 import info.anwesha2k19.iitp.R;
-
-import static info.anwesha2k19.iitp.activities.EventInfoActivity.startAlphaAnimation;
 
 public class multiCityInfo extends AppCompatActivity implements AppBarLayout.OnOffsetChangedListener{
 

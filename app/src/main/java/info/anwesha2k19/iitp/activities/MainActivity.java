@@ -1,26 +1,24 @@
 package info.anwesha2k19.iitp.activities;
 
-import android.Manifest;
-import android.app.ActivityManager;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
-import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.tabs.TabLayout;
+import androidx.core.app.ActivityCompat;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.core.content.ContextCompat;
+import androidx.fragment.app.FragmentStatePagerAdapter;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -29,7 +27,6 @@ import android.view.WindowManager;
 import android.widget.Toast;
 
 import com.facebook.login.LoginManager;
-import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.FirebaseDatabase;
 import com.mxn.soul.flowingdrawer_core.ElasticDrawer;
 import com.mxn.soul.flowingdrawer_core.FlowingDrawer;
@@ -41,12 +38,12 @@ import info.anwesha2k19.iitp.fragments.MenuListFragment;
 public class MainActivity extends AppCompatActivity {
 
     /**
-     * The {@link android.support.v4.view.PagerAdapter} that will provide
+     * The {@link PagerAdapter} that will provide
      * fragments for each of the sections. We use a
      * {@link FragmentPagerAdapter} derivative, which will keep every
      * loaded fragment info memory. If this becomes too memory intensive, it
      * may be best to switch to a
-     * {@link android.support.v4.app.FragmentStatePagerAdapter}.
+     * {@link FragmentStatePagerAdapter}.
      */
     private PageFragmentAdapter mPageFragmentAdapter;
 

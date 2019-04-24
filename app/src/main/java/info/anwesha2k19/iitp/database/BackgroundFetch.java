@@ -3,18 +3,11 @@ package info.anwesha2k19.iitp.database;
 import android.app.Service;
 import android.content.ContentValues;
 import android.content.Intent;
-import android.content.Loader;
-import android.os.Bundle;
 import android.os.IBinder;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.Log;
-import android.view.View;
 
 import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonArrayRequest;
-import com.android.volley.toolbox.Volley;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -28,7 +21,6 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.Charset;
-import java.util.List;
 
 /**
  * Created by mayank on 26/11/17.

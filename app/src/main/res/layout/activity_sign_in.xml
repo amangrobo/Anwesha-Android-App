@@ -19,7 +19,7 @@
         android:orientation="vertical"
         android:scrollbars="vertical">
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/eamil_id_wrapper_signin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -37,9 +37,9 @@
                 android:maxLines="1"
                 android:drawablePadding="8dp"
                 android:textColor="@color/colorPrimaryLight"/>
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/password_wrapper_signin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
                 android:drawablePadding="8dp"
                 android:textColor="@color/colorPrimaryLight"
                 />
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
 
     <Button

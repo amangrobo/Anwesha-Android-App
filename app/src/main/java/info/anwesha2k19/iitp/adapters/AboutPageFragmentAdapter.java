@@ -1,7 +1,8 @@
 package info.anwesha2k19.iitp.adapters;
 
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 
 import info.anwesha2k19.iitp.fragments.AboutFragment;
 import info.anwesha2k19.iitp.fragments.DevelopersFragment;
@@ -16,7 +17,7 @@ public class AboutPageFragmentAdapter extends FragmentPagerAdapter {
     }
 
     @Override
-    public android.support.v4.app.Fragment getItem(int position) {
+    public Fragment getItem(int position) {
         switch (position) {
             case 0:
                 return new AboutFragment();

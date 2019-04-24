@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:cardElevation="4dp">
@@ -27,21 +27,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="230dp"
                     android:background="#000000" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/flipCard"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     app:cardBackgroundColor="@color/cardview_shadow_start_color"
                     card_view:cardElevation="20dp">
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:id="@+id/CardBack"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -58,9 +58,9 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerInside"
                             android:src="@drawable/anwesha_logo_edit_white_card" />
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:id="@+id/CardFront"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -103,10 +103,10 @@
                             android:textColor="@color/white"
                             android:textSize="0sp"
                             android:textStyle="bold" />
-                    </android.support.v7.widget.CardView>
-                </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/schedule"
                     android:layout_width="0dp"
                     android:layout_height="120dp"
@@ -135,7 +135,7 @@
                             android:textSize="22dp"
                             android:textStyle="bold" />
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
             </LinearLayout>
 
             <LinearLayout
@@ -143,7 +143,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
                 android:orientation="horizontal">
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/events"
                     android:layout_width="0dp"
                     android:layout_height="120dp"
@@ -172,8 +172,8 @@
                             android:textSize="22dp"
                             android:textStyle="bold" />
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
-                <android.support.v7.widget.CardView
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
                     android:id="@+id/myProfile"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
@@ -196,7 +196,7 @@
                         android:textColor="@color/white"
                         android:textSize="18dp"
                         android:textStyle="bold" />
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
             </LinearLayout>
 
 
@@ -210,7 +210,7 @@
                     android:layout_width="120dp"
                     android:layout_height="240dp"
                     android:orientation="vertical">
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:id="@+id/sponsors"
                         android:layout_width="120dp"
                         android:layout_height="120dp"
@@ -233,7 +233,7 @@
                             android:textColor="@color/white"
                             android:textSize="18dp"
                             android:textStyle="bold" />
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
                     <!--<android.support.v7.widget.CardView-->
                         <!--android:id="@+id/map"-->
@@ -260,7 +260,7 @@
                             <!--android:textStyle="bold" />-->
                     <!--</android.support.v7.widget.CardView>-->
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:id="@+id/about"
                         android:layout_width="120dp"
                         android:layout_height="120dp"
@@ -283,11 +283,11 @@
                             android:textColor="@color/white"
                             android:textSize="18dp"
                             android:textStyle="bold" />
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/gallery"
                     android:layout_width="0dp"
                     android:layout_height="240dp"
@@ -323,7 +323,7 @@
                         android:textSize="20sp" />
 
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
             </LinearLayout>
 
@@ -332,7 +332,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/social"
                     android:layout_width="0dp"
                     android:layout_height="120dp"
@@ -356,9 +356,9 @@
                         android:textColor="@color/white"
                         android:textSize="20dp"
                         android:textStyle="bold" />
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/team"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
@@ -381,13 +381,13 @@
                         android:textColor="@color/white"
                         android:textSize="18dp"
                         android:textStyle="bold" />
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
             </LinearLayout>
 
         </LinearLayout>
 
     </ScrollView>
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/maps"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

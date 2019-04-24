@@ -1,10 +1,12 @@
 package info.anwesha2k19.iitp.activities;
 
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
+import com.google.android.material.tabs.TabLayout;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.fragment.app.FragmentStatePagerAdapter;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 
 import info.anwesha2k19.iitp.R;
@@ -16,12 +18,12 @@ import info.anwesha2k19.iitp.adapters.AboutPageFragmentAdapter;
 
 public class AboutActivity extends AppCompatActivity {
     /**
-     * The {@link android.support.v4.view.PagerAdapter} that will provide
+     * The {@link PagerAdapter} that will provide
      * fragments for each of the sections. We use a
      * {@link FragmentPagerAdapter} derivative, which will keep every
      * loaded fragment info memory. If this becomes too memory intensive, it
      * may be best to switch to a
-     * {@link android.support.v4.app.FragmentStatePagerAdapter}.
+     * {@link FragmentStatePagerAdapter}.
      */
     private AboutPageFragmentAdapter aboutPageFragmentAdapter;
 

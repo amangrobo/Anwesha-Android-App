@@ -2,17 +2,13 @@ package info.anwesha2k19.iitp.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.CollapsingToolbarLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
+import com.google.android.material.appbar.AppBarLayout;
+
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.util.Log;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -249,18 +245,11 @@ import java.util.Set;
 //        return super.onOptionsItemSelected(item);
 //    }
 //}
-import android.os.Bundle;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.CollapsingToolbarLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.View;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 import android.view.animation.AlphaAnimation;
-import android.widget.FrameLayout;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import info.anwesha2k19.iitp.R;
 

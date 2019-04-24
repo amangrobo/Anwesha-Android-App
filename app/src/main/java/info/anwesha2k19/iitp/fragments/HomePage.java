@@ -2,22 +2,16 @@ package info.anwesha2k19.iitp.fragments;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
-import android.app.Activity;
-import android.content.ActivityNotFoundException;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
-import android.support.annotation.Nullable;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.util.Log;
+import androidx.annotation.Nullable;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.fragment.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -42,14 +36,12 @@ import info.anwesha2k19.iitp.R;
 
 import info.anwesha2k19.iitp.activities.AboutActivity;
 import info.anwesha2k19.iitp.activities.EventsActivityNew;
-import info.anwesha2k19.iitp.activities.MainActivity;
 import info.anwesha2k19.iitp.activities.MapActivity;
 import info.anwesha2k19.iitp.activities.MyProfile;
 import info.anwesha2k19.iitp.activities.SocialActivity;
 import info.anwesha2k19.iitp.activities.SponsorsActivity;
 import info.anwesha2k19.iitp.activities.TeamActivity;
 import info.anwesha2k19.iitp.activities.TimelineActivity;
-import info.anwesha2k19.iitp.adapters.EventsAdapter;
 import info.anwesha2k19.iitp.adapters.SliderAdapter;
 import info.anwesha2k19.iitp.listeners.ViewPagerCustomDuration;
 
@@ -58,7 +50,7 @@ import info.anwesha2k19.iitp.listeners.ViewPagerCustomDuration;
  */
 
 public class
-HomePage extends android.support.v4.app.Fragment {
+HomePage extends Fragment {
     SharedPreferences sharedPreferences;
 
     final long DELAY_MS = 500;//delay info milliseconds before task is to be executed

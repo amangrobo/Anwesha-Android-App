@@ -21,7 +21,7 @@
             android:orientation="vertical"
             android:scrollbars="vertical">
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/first_name_wrapper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -37,9 +37,9 @@
                     android:inputType="textPersonName"
                     android:maxLines="1"
                     android:textColor="#000000" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/last_name_wrapper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -55,7 +55,7 @@
                     android:inputType="textPersonName"
                     android:maxLines="1"
                     android:textColor="#000000" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <Spinner
                 android:id="@+id/gender_spinner"
@@ -65,7 +65,7 @@
 
                 tools:text="rbaebe" />
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/college_name_wrapper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -81,9 +81,9 @@
                     android:inputType="textPersonName"
                     android:maxLines="1"
                     android:textColor="#000000" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/city_wrapper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -99,9 +99,9 @@
                     android:inputType="text"
                     android:maxLines="1"
                     android:textColor="#000000" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/birthday_wrapper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -120,10 +120,10 @@
                     android:maxLines="1"
                     android:textColor="@color/white" />
 
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/email_id_wrapper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -139,9 +139,9 @@
                     android:inputType="textEmailAddress"
                     android:maxLines="1"
                     android:textColor="#000000" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/mobile_no_wrapper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -157,9 +157,9 @@
                     android:inputType="number"
                     android:maxLines="1"
                     android:textColor="#000000" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/password_wrapper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -175,9 +175,9 @@
                     android:inputType="textPassword"
                     android:maxLines="1"
                     android:textColor="#000000" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/confirm_password_wrapper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -193,9 +193,9 @@
                     android:inputType="textPassword"
                     android:maxLines="1"
                     android:textColor="#000000" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/ref_code_wrapper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -211,7 +211,7 @@
                     android:inputType="number"
                     android:maxLines="1"
                     android:textColor="#000000" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
         </LinearLayout>
 

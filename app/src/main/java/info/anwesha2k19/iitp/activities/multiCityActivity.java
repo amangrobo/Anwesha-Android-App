@@ -4,12 +4,12 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.support.v4.app.ActivityOptionsCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.util.Pair;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.core.app.ActivityOptionsCompat;
+import androidx.core.content.ContextCompat;
+import androidx.core.util.Pair;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.view.Window;
 import android.widget.ImageView;
@@ -39,7 +39,7 @@ public class multiCityActivity extends AppCompatActivity implements multiCityRec
         recyclerView.setHasFixedSize(true);
         Resources resources = getResources();
 
-        android.support.v7.app.ActionBar bar = getSupportActionBar();
+        androidx.appcompat.app.ActionBar bar = getSupportActionBar();
         assert bar != null;
         bar.setBackgroundDrawable(new ColorDrawable(ContextCompat.getColor(this, R.color.colorPrimary)));
 

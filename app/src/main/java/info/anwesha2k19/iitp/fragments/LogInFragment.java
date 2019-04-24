@@ -3,9 +3,8 @@ package info.anwesha2k19.iitp.fragments;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.annotation.NonNull;
-import android.support.design.widget.TextInputLayout;
-import android.support.v4.app.Fragment;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -38,7 +37,6 @@ import info.anwesha2k19.iitp.R;
 
 import info.anwesha2k19.iitp.OnLoginListener;
 import info.anwesha2k19.iitp.activities.MyProfile;
-import info.anwesha2k19.iitp.activities.SignInActivity;
 
 public class LogInFragment extends Fragment implements OnLoginListener {
     private static final String TAG = "LoginFragment";

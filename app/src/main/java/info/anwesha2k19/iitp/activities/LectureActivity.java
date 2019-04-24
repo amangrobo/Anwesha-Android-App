@@ -4,8 +4,8 @@ package info.anwesha2k19.iitp.activities;
 import android.app.LoaderManager;
 import android.content.Loader;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
@@ -17,9 +17,7 @@ import java.util.List;
 import info.anwesha2k19.iitp.R;
 import info.anwesha2k19.iitp.adapters.LectureAdapter;
 import info.anwesha2k19.iitp.adapters.LectureLoader;
-import info.anwesha2k19.iitp.adapters.WorkshopAdapter;
 import info.anwesha2k19.iitp.data.LecturesData;
-import info.anwesha2k19.iitp.data.WorkshopData;
 
 public class LectureActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<List<LecturesData>>{
 
